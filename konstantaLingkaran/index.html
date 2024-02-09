@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas Lingkaran</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="canvas">
+        <section>
+            <span>Radius Lingkaran</span>
+            <input type="text" placeholder="Masukan Angka" style="padding: 5px;">
+            <span id="hasil" style="visibility: hidden;"></span>
+            <button style="padding: 5px 15px;" onclick="duarr()">Hitung</button>
+        </section>
+    </div>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .canvas{
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .canvas section{
+            color: white;
+            padding: 120px 80px;
+            background: linear-gradient(90deg,rgba(136, 0, 255, 0.736),rgb(0, 238, 255,0.7));
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        span, input, button{
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
