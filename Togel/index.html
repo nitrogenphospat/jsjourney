@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angka Random</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section>
+        <div style="font-size: 28px;font-weight: 600;">angka</div>
+        <nav>
+            <span style="font-size: 28px;display: block;" id="angkax">0</span>
+            <span style="font-size: 28px;display: block;" id="angkay">0</span>
+            <span style="font-size: 28px;display: block;" id="angkaz">0</span>
+        </nav>
+        <button style="padding: 7px 15px;cursor: pointer;" onclick="duarr()">ROLL</button>
+    </section>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        section{
+            border: 2px solid #929292;
+            padding: 40px 0px;
+            width: 320px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+        }
+        div, span, button {
+            margin: 10px 0;
+        }
+    </style>
+</body>
+</html>
